@@ -12,7 +12,7 @@ var ww = $(window).width();
 var wh = $(window).height();
 canvas.width = ww;
 canvas.height= wh;
-var partCount = 100;
+var partCount = 1000;
 var particles = [];
 
 function particle(){

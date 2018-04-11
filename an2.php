@@ -1,4 +1,3 @@
 <?php
-
     shell_exec('python an.py');
-    header("Location: index.php");
+	shell_exec('an.py');
