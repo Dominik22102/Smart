@@ -1,3 +1,4 @@
 <?php
-    shell_exec("python an.py");
-	shell_exec("an.py");
+    shell_exec("python test.py");
+	shell_exec("test.py");
+	echo "Test";
