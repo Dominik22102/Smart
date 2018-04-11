@@ -1,4 +1,4 @@
 <?php
 
-    shell_exec('/home/pi/raspi/an.py');
+    shell_exec('an.py');
     header("Location: index.php");
