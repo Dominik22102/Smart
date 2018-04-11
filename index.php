@@ -16,7 +16,7 @@
         <div id="Demo" class="w3-dropdown-content">
             <?php
 
-            $sql = 'SELECT * FROM Buttons';
+            $sql = 'SELECT * FROM buttons';
             $result = $conn->query($sql);
             if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
