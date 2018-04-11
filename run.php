@@ -8,6 +8,6 @@
 $url = "";
 if(isset($_GET['command'])) {
     $com = $_GET['command'];
-    shell_exec('echo ' . $com);
+    shell_exec('/home/pi/rasp/' . $com);
     header("Location:index.php");
 }
