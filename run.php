@@ -8,6 +8,6 @@
 $url = "";
 if(isset($_GET['command'])) {
     $com = $_GET['command'];
-    shell_exec('/home/pi/rasp/' . $com);
+    shell_exec('sudo python /home/pi/raspi/'.$com);
     header("Location:index.php");
 }
