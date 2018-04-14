@@ -1,4 +1,3 @@
 <?php
-    shell_exec("python test.py");
-	shell_exec("test.py");
-	echo "Test";
+	shell_exec("/usr/local/bin/an.sh");
+	echo "Test2";
